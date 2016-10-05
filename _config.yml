@@ -1,0 +1,25 @@
+safe: true
+markdown: kramdown
+exclude: [ assets ]
+permalink: /:title.html
+
+default_theme: yandex
+default_width: 792
+default_lang: ru
+default_body_class: list
+
+kramdown:
+  enable_coderay: false
+
+presentation:
+    title: JS AS IS
+    nda: false
+
+author:
+    name: Василий Логиневский
+    position: Разработчик интерфейсов
+    company:
+        name: Яндекс
+        url:  https://yandex.ru/
+
+progress: true
